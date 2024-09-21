@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(221, 221, 221);
   margin: 0;
   padding: 0;
 }
@@ -86,4 +86,8 @@ form button {
   background: orange;
   display: block;
   padding: 10px;
+}
+
+.owner a{
+  color: black;
 }
