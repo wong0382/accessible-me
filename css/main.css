@@ -69,3 +69,21 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+/* new added css code */
+.skip-links ul{
+  list-style: none;
+  position: relative;
+}
+
+.skip-links a{
+  position: absolute;
+  top: -10em;
+}
+
+.skip-links a:focus{
+  top: 0;
+  background: orange;
+  display: block;
+  padding: 10px;
+}
