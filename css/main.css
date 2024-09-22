@@ -83,7 +83,7 @@ form button {
 
 .skip-links a:focus{
   top: 0;
-  background: orange;
+  background: rgb(228, 228, 228);
   display: block;
   padding: 10px;
 }

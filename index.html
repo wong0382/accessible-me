@@ -43,12 +43,12 @@
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
       <div class="owner" id="owner">
         <article itemscope itemtype="https://schema.org.Person" role="article">
-          <h3>Meet the owner</h3>
+          <h3 itemprop="name">Meet the owner</h3>
             <ul>
-              <li>Name: John Doe</li>
-              <li>Title: CEO</li>
+              <li>Name: <span itemprop="givenName">John </span><span itemprop="familyName">Doe</span></li>
+              <li>Title: <span itemprop="jobTitle">CEO</span></li>
               <li>Email: <a href="mailto:johnjoe@jambox.ca">johnjoe@jambox.ca</a></li>
-              <li>Phone: 613-000-0000</li>
+              <li>Phone: <span itemprop="telephone">613-000-0000</span></li>
              </ul>
           <h3>Address</h3>
           <p itemprop="address">
